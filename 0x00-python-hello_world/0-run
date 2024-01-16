@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Run the Python script specified by the PYFILE environment variable
+
+exec python3 "$PYFILE"
