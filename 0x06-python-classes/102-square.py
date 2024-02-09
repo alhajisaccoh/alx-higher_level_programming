@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" classes in python """
 class Square:
     """
     creates square object

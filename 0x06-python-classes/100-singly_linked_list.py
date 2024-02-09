@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" linked list python """
 class Node:
 
     def __init__(self, data, next_node=None):
