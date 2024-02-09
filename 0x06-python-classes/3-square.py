@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """ python classes """
+
+
 class Square:
-    """
-    creates a square object
-    """
+    """ creates a square object """
     def __init__(self, size=0):
         if(type(size) is not int):
             raise TypeError("size must be an integer")
@@ -18,6 +18,4 @@ class Square:
         """
     def area(self):
         return(self.__size**2)
-    """
-    returns area of square based on size
-    """
+    """ returns area of square based on size """
